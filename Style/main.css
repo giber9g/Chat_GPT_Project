@@ -19,6 +19,7 @@ header {
 body {
   background: #040c18;
   color: #fff;
+  font-family: 'Manrope', sans-serif;
 }
 button {
   width: 152px;
@@ -88,31 +89,39 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 0 150px;
+  padding-top: 50px;
 }
 .secttext h1 {
-  width: 614px;
-  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-size: 62px;
   font-style: normal;
   font-weight: 800;
   line-height: 75px; /* 120.968% */
   letter-spacing: -2.48px;
+  background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .secttext p {
-  width: 554px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 754px;
   color: #81afdd;
   font-size: 20px;
 }
 .secttext input {
+  padding-left: 20px;
   width: 456px;
   height: 73px;
   border-radius: 5px 0px 0px 5px;
   background: #052d56;
+  flex-shrink: 0;
+  font-size: 20px;
 }
 .secttext button {
   width: 174px;
   height: 73px;
+}
+.img_ebalo img{
+  width: 1100px;
 }
