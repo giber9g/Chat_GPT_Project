@@ -19,7 +19,7 @@ header {
 body {
   background: #040c18;
   color: #fff;
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
 }
 button {
   width: 152px;
@@ -91,13 +91,17 @@ section {
   padding: 0 150px;
   padding-top: 50px;
 }
+main {
+  padding: 0 150px;
+  padding-top: 130px;
+}
 .secttext h1 {
   font-size: 62px;
   font-style: normal;
   font-weight: 800;
   line-height: 75px; /* 120.968% */
   letter-spacing: -2.48px;
-  background: linear-gradient(90deg, #AE67FA 1.84%, #F49867 102.67%);
+  background: linear-gradient(90deg, #ae67fa 1.84%, #f49867 102.67%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -122,6 +126,44 @@ section {
   width: 174px;
   height: 73px;
 }
-.img_ebalo img{
+.img_ebalo img {
   width: 1100px;
+}
+.companionlogo ul {
+  display: flex;
+  gap: 45px;
+  align-items: center;
+  padding-top: 150px;
+  padding-left: 650px;
+}
+.containers {
+  background-color: rgb(4, 44, 84);
+  align-items: center;
+  display: flex;
+}
+.upwards {
+  padding-top: 57px;
+  padding-left: 61px;
+}
+.upwards hr {
+  width: 38px;
+  height: 3px;
+  flex-shrink: 0;
+  background: linear-gradient(103deg, #ae67fa -13.86%, #f49867 99.55%), #fff;
+}
+.upwards p {
+  font-size: 24px;
+  letter-spacing: 1px;
+  line-height: 75px;
+}
+.description_gpt p {
+  align-items: center;
+  padding-top: 74px;
+  padding-left: 154px;
+  color: #81afdd;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; 
+  text-align: center;
 }
